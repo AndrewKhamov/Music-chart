@@ -1,0 +1,8 @@
+c.execute("INSERT INTO tests (question, ans, correct) VALUES ('Где родился Justin Bieber') VALUES ('1)США\n 2)Канада\n 3)Англия\n') VALUES ('Канада')") 
+conn.commit() 
+c.execute("INSERT INTO tests (question, ans, correct) VALUES ('Какое место заняла Майли Сайрус в списке величайших поп-исполнительниц по версии VH1') VALUES ('1)23\n 2)84\n 3)99\n') VALUES ('84')") 
+conn.commit() 
+c.execute("INSERT INTO tests (question, ans, correct) VALUES ('Как зовут сына певца Хулио Иглесиаса?') VALUES ('1)Энрике\n 2)Альберто\n 3)Густаво\n') VALUES ('Энрике')")
+conn.commit() 
+c.execute("INSERT INTO tests (question, ans, correct) VALUES ('С кем из данных исполнительниц  встречался Джастин Бибер') VALUES ('1)Селена Гомез\n 2)Майли Сайрус\n 3)Аврил Лавин\n') VALUES ('Селена Гомез')") 
+conn.commit() 
